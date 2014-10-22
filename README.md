@@ -8,4 +8,14 @@ Current features include:
 - Firefox
 - gparted
 - Network Manager
-- 
+- dhcpcd with wifi-menu for cases where Network Manager does not work properly
+- Yaourt
+- Broadcom Wireless Drivers
+
+
+Information:
+--------------
+
+Default username: livearch
+Default password: guest
+

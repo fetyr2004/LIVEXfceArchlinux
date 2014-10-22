@@ -1,0 +1,11 @@
+sudo arch-chroot ./work/x86_64/airootfs
+
+passwd
+passwd livearch
+
+haveged -w 1024
+pacman-key --init
+pkill haveged
+pacman-key --populate archlinux
+
+rm /etc/systemd/system/getty@tty1.service.d/autologin.conf
