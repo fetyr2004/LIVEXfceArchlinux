@@ -19,3 +19,6 @@ Information:
 Default username: livearch
 Default password: guest
 
+To start live XFCE environment, run:
+	<pre><code>startxfce4</code></pre>
+after logging into livearch.
